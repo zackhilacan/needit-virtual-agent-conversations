@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="_PRVW__6bdf06c16a601110837a17a3f6b671a9">e3dfc6c11b60111056f98623604bcba0</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"6bce36abd4dc432e9b9b286e48abafbf","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"6bce36abd4dc432e9b9b286e48abafbf"}],"goals":[{"name":"primary","trigger_id":"6bce36abd4dc432e9b9b286e48abafbf","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"5e323a3e42dc4fc98a88799a85af2be0","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"66415d7b6e1042e3837d313272b03c74","name":"End"},{"type":"ChoiceInputPrompt","expression_mode":"simple","metadataScript":"","cardName":"","cardFields":[],"id":"a15457cd07334b33a8a72abca499ac41","name":"NeedIt Type","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"variable_id":"3ce6fd41ea924768a6b771e3dbba7641","message":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Which type of NeedIt Record would you like to view\", vaContext.getRequesterLang())"},"skippable":{"type":"Applicability","mode":"script","value":"false"},"nlu_entity_binding":{"type":"NLUEntityBinding","allow_text_input":false,"use_confirmation_prompt":true}}],"edges":[{"type":"Edge","source_node_id":"5e323a3e42dc4fc98a88799a85af2be0","target_node_id":"a15457cd07334b33a8a72abca499ac41","id":"1d2534c7716640169f54c5c20be730a9"},{"type":"Edge","source_node_id":"a15457cd07334b33a8a72abca499ac41","target_node_id":"66415d7b6e1042e3837d313272b03c74","id":"3b71242a851c4e16a5d8c9e17d8dd7c0"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false},{"type":"Choice","choices":[{"name":"Legal","element":"legal"},{"name":"Facilities","element":"facilities"},{"name":"Human Resources","element":"human resources"}],"id":"3ce6fd41ea924768a6b771e3dbba7641","name":"needit_type","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"89888e491b20111056f98623604bcb3b","domain":"global","topic_type":"STANDARD","channels":[],"id":"7a5a428d1b20111056f98623604bcb1c","name":"_PRVW__6bdf06c16a601110837a17a3f6b671a9","key_phrases":["Update NeedIt Records","NeedIt Request"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":false,"design_categories":[{"name":null,"visible":false,"sysId":"75b8024d1b20111056f98623604bcbb8"}],"triggerable_by_notification":false,"library":false,"readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>7a5a428d1b20111056f98623604bcb1c</design_topic_id>
+        <name>_PRVW__6bdf06c16a601110837a17a3f6b671a9</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 01:28:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e3dfc6c11b60111056f98623604bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_847424_needit_vi">89888e491b20111056f98623604bcb3b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">89888e491b20111056f98623604bcb3b</sys_scope>
+        <sys_update_name>sys_cb_design_topic_e3dfc6c11b60111056f98623604bcba3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 01:28:07</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>
